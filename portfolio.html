@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Singh Rawat - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #4f8cff 0%, #38b6ff 100%);
+            color: #fff;
+            padding: 32px 0 16px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        header p {
+            margin: 8px 0 0 0;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav a {
+            color: #4f8cff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #38b6ff;
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 32px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+            padding: 32px 28px;
+        }
+        section h2 {
+            color: #4f8cff;
+            margin-top: 0;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #e0eafc;
+            padding-bottom: 8px;
+        }
+        ul {
+            padding-left: 18px;
+        }
+        li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .contact a {
+            color: #38b6ff;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 18px 0;
+            background: #4f8cff;
+            color: #fff;
+            margin-top: 32px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            border-radius: 0 0 12px 12px;
+        }
+        @media (max-width: 900px) {
+            section {
+                margin: 18px 8px;
+                padding: 18px 8px;
+            }
+            nav {
+                gap: 12px;
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SHIVAM SINGH RAWAT</h1>
+        <p>Results-driven B.Tech CSE Student | Machine Learning, Web & Cloud Enthusiast</p>
+        <p>Contact: +91 8218241169 | <a href="mailto:shivamsinghrawat.230211322@gehu.ac.in" style="color:white;">shivamsinghrawat.230211322@gehu.ac.in</a></p>
+    </header>
+
+    <nav>
+        <a href="#objective">Objective</a>
+        <a href="#education">Education</a>
+        <a href="#interests">Fields of Interest</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#skills">Skills</a>
+        <a href="#softskills">Soft Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="objective" class="about">
+        <h2>Career Objective</h2>
+        <p>Results-driven B.Tech student seeking an internship in Machine Learning, Web Development, or Cloud Computing. I design and deploy scalable APIs and ML models that improve process efficiency by up to 30% and enhance platform security. Proficient in Python, Django, and React; eager to deliver production-ready solutions in cross-functional teams.</p>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>B.Tech in Computer Science and Engineering, GEHU Dehradun (2023–2027) — GPA: 9.01/10.00</li>
+            <li>Senior Secondary (AISSCE), APS No.1, Roorkee, CBSE (2023) — 93.8%</li>
+            <li>High School, APS No.1, Roorkee, CBSE (2021) — 93.8%</li>
+        </ul>
+    </section>
+
+    <section id="interests" class="about">
+        <h2>Fields of Interest</h2>
+        <ul>
+            <li>Wireless Networks & Network Security: Secure wireless protocols, intrusion detection for IoT, RF optimization</li>
+            <li>Machine Learning: Supervised learning, NLP pipelines, feature engineering, deployment</li>
+            <li>Web Development: Full-stack (Django/React), RESTful APIs, responsive UIs</li>
+            <li>Cloud Computing: Cloud architecture, containerization, CI/CD, scalable deployments (AWS/GCP)</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Academic Projects</h2>
+        <ul>
+            <li>
+                <strong>Airline Ticket Pricing System</strong> | Django, React, Celery<br>
+                Designed a dynamic pricing engine with Django REST and Celery to update fares in real time, improving price-update throughput by ∼25%. Built a responsive React frontend and REST APIs to manage bookings and schedules, reducing manual reconciliation by ∼30%.
+            </li>
+            <li>
+                <strong>Smart HR Assistance System</strong> | Python, scikit-learn, Streamlit<br>
+                Developed an NLP-based resume classifier (NLTK + scikit-learn) to bucket candidates by role, speeding initial shortlisting by ∼4x. Implemented a feedback and interview Q&A generator with Streamlit and model persistence for on-demand candidate evaluation.
+            </li>
+            <li>
+                <strong>Crop Simulation Management</strong> | C++<br>
+                Implemented a modular crop simulator for Wheat, Rice, and Corn, enabling reproducible scenario testing and optimized simulation loops for batch multi-day runs.
+            </li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="about">
+        <h2>Certifications & Achievements</h2>
+        <ul>
+            <li>2nd position in college Carrom Tournament</li>
+            <li>Problem Solving Through Programming in C — SWAYAM / NPTEL</li>
+            <li>Google Cloud Computing Foundation — SWAYAM / NPTEL</li>
+            <li>AWS Green Badge — Amazon Web Services</li>
+        </ul>
+    </section>
+
+    <section id="skills" class="about">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Languages & Databases: C, C++, Java, Python · MySQL, SQLite</li>
+            <li>Web & Tools: Django, Django REST Framework, React, Streamlit · Git, VS Code, Eclipse, Celery</li>
+            <li>Libraries & ML: NumPy, pandas, scikit-learn, NLTK, matplotlib, seaborn</li>
+        </ul>
+    </section>
+
+    <section id="softskills" class="about">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Communication: Clear technical communication and documentation; team coordination</li>
+            <li>Teamwork & Leadership: Led small project teams, cross-functional collaboration</li>
+            <li>Problem-Solving: Analytical debugging, optimization, model tuning</li>
+            <li>Time Management: Prioritised tasks to meet deadlines under academic schedules</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:shivamsinghrawat.230211322@gehu.ac.in">shivamsinghrawat.230211322@gehu.ac.in</a></p>
+        <p>Phone: +91 8218241169</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shivamsinghrawat" target="_blank">linkedin.com/in/shivamsinghrawat</a></p>
+        <p>GitHub: <a href="https://github.com/shivamsinghrawat" target="_blank">github.com/shivamsinghrawat</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Shivam Singh Rawat. All Rights Reserved.
+    </footer>
+</body>
